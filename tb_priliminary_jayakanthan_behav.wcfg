@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_priliminary_jayakanthan_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_priliminary_jayakanthan" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999,995 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,000,002 ps"></ZoomEndTime>
+      <Cursor1Time time="1,000,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="104"></NameColumnWidth>
+      <ValueColumnWidth column_width="94"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/tb_priliminary_jayakanthan/e1" type="array">
+      <obj_property name="ElementShortName">e1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">e1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_priliminary_jayakanthan/e2" type="array">
+      <obj_property name="ElementShortName">e2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">e2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_priliminary_jayakanthan/e3" type="array">
+      <obj_property name="ElementShortName">e3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">e3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_priliminary_jayakanthan/e4" type="array">
+      <obj_property name="ElementShortName">e4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">e4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_priliminary_jayakanthan/jk1" type="array">
+      <obj_property name="ElementShortName">jk1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jk1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_priliminary_jayakanthan/jk2" type="array">
+      <obj_property name="ElementShortName">jk2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jk2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_priliminary_jayakanthan/jk3" type="array">
+      <obj_property name="ElementShortName">jk3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jk3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_priliminary_jayakanthan/jk4" type="array">
+      <obj_property name="ElementShortName">jk4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jk4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_priliminary_jayakanthan/jk5" type="array">
+      <obj_property name="ElementShortName">jk5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jk5[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_priliminary_jayakanthan/jk6" type="array">
+      <obj_property name="ElementShortName">jk6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jk6[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_priliminary_jayakanthan/jk7" type="array">
+      <obj_property name="ElementShortName">jk7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jk7[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_priliminary_jayakanthan/jk8" type="array">
+      <obj_property name="ElementShortName">jk8[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jk8[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_priliminary_jayakanthan/jk9" type="array">
+      <obj_property name="ElementShortName">jk9[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jk9[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_priliminary_jayakanthan/jk10" type="array">
+      <obj_property name="ElementShortName">jk10[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jk10[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_priliminary_jayakanthan/jk11" type="array">
+      <obj_property name="ElementShortName">jk11[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jk11[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_priliminary_jayakanthan/jk12" type="array">
+      <obj_property name="ElementShortName">jk12[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jk12[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_priliminary_jayakanthan/a" type="array">
+      <obj_property name="ElementShortName">a[511:0]</obj_property>
+      <obj_property name="ObjectShortName">a[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_priliminary_jayakanthan/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,29 @@
+`timescale 1ns/100ps
+module tb_priliminary_jayakanthan ();
+wire signed [31:0] e1,e2,e3,e4,jk1,jk2,jk3,jk4,jk5,jk6,jk7,jk8,jk9,jk10,jk11,jk12;
+reg signed [511:0]a;
+reg clk;
+
+prilimnary_project a1 (clk,a,e1,e2,e3,e4,jk1,jk2,jk3,jk4,jk5,jk6,jk7,jk8,jk9,jk10,jk11,jk12) ;
+
+initial begin
+clk=1'b0;
+a=512'h0;
+#20;a={32'h1,32'h00000002,32'd3,32'd4,32'd5,32'd6,32'd7,32'd8,32'd9,32'd10,32'd11,32'd12,32'd13,32'd14,32'd15,32'd16};
+//#20;a={32'h0,32'h1,32'd1,32'd1,32'd1,32'd0,32'd1,32'd1,32'd1,32'd1,32'd0,32'd1,32'd1,32'd1,32'd1,32'd0};
+
+end
+
+always
+begin 
+#2 clk=~clk;
+end
+
+//initial begin
+//$display("%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d",e1,e2,e3,e4,jk1,jk2,jk3,jk4,jk5,jk6);
+
+//end
+initial begin
+$monitor("%t\t",$time,"\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t",e1,e2,e3,e4,jk1,jk2,jk3,jk4,jk5,jk6,jk7,jk8,jk9,jk10,jk11,jk12);
+end
+endmodule
